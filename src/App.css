@@ -1,0 +1,47 @@
+.tela{
+  display:flex;
+  padding-left:20px;
+  padding-right:20px;
+  justify-content:center;
+  align-items:flex-start;
+  background-Color:#444;
+  flex-direction:column;
+  width:260px;
+  color:white;
+  padding:20px;
+}
+
+.operacao{
+  font-size:25px;
+  color:#fff;
+  height:20px;
+}
+
+.res{
+  font-size:50px;
+  color:#fff;
+}
+
+.btn{
+  font-size:30px;
+  height:75px;
+  width:75px;
+  padding:20px;
+  background-color:#000;
+  color:#fff;
+  border-color:#000;
+  text-align:center;
+  outline:none;
+}
+.container{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  flex-direction:column;
+  width:300px;
+  border:1px solid #000;  
+}
+.b{
+  flex-direction:row;
+  flex-wrap:wrap;
+}
